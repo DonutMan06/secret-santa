@@ -21,7 +21,7 @@ done
 for k in $(seq 0 $((N-1)) ) ; do
 	p=${shuffle[$k]}
 	#echo "$k --> noms[$p] = ${noms[$p]}"
-	mail -r "vigneronp@free.fr" -s "Secret Santa" "${email[$k]}" << EOF
+	mail -r "donald@duck.dc" -s "Secret Santa" "${email[$k]}" << EOF
 Bonjour ${noms[$k]},
 pour ce Noel tu dois faire un cadeau a ${noms[$p]}
 Bonne chance !
